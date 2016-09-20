@@ -1,7 +1,7 @@
 "use strict";
 var sibling = prompt('Do I have any siblings?');
 if (sibling === 'yes') {
-   alert('You\'re right! I have a brother');
+  alert('You\'re right! I have a brother');
   console.log('You guessed correctly!');
 }
 else {
