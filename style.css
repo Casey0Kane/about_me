@@ -1,3 +1,9 @@
-* {
-  color: red;
+h1 {
+  color: blue;
+  border: solid black 10px;
+  border-radius: 10px;
+}
+p {
+  font-family: cursive;
+  font-size: 16px;
 }

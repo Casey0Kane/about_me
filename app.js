@@ -1,15 +1,50 @@
-var username = prompt('What is your name?');
-alert('Welcome, ' + username + '!');
-console.log('The user\'s name is ' + username);
+'use strict'
+var sibling = prompt('Do I have any siblings?');
+if (true) {
+  sibling = "You\'re right! I have a brother";
+  console.log "You guessed correctly!";
+}
+else {
+  sibling = "You\'re wrong! I have a brother";
+  console.log "You guessed wrong!"
+}
 
-var favcolor = prompt('What is your favorite color?');
-alert('Your favorite color is ' + favcolor);
-console.log('The user\'s favorite color is ' + favcolor);
+var horses = prompt('Do I like horses?');
+if (true) {
+  horses = "You guessed wrong!";
+  console.log "You guessed wrong";
+}
+else {
+  horses = "You guessed correctly!";
+  console.log "You guessed correctly!";
+}
 
-var quest = prompt('What is your quest?');
-alert('Your quest is ' + quest);
-console.log('The user\'s quest is ' + quest);
+var computers = prompt("Do I like computers?");
+if (true) {
+  computers = "You guessed right!";
+  console.log "You guessed right";
+}
+else {
+  computers = "You guessed wrong";
+  console.log "You guessed wrong";
+}
 
-var favfood = prompt('What is your favorite food?');
-alert('Your favorite food is ' + favfood);
-console.log('The user\'s favorite food is ' + favfood);
+var hampster = prompt('Do I have a hampster?');
+if (true) {
+  "you guessed correctly!";
+  console.log "You guessed correctly";
+}
+else {
+  hampster = "You guessed wrong";
+  console.log "You guessed wrong";
+}
+
+var favColor = prompt('Is my favorite color blue?');
+if (true) {
+  favColor = "You guessed right!";
+  console.log "You guessed right";
+}
+else {
+  favColor = "You guessed wrong";
+  console.log "You guessed wrong";
+}
