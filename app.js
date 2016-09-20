@@ -1,50 +1,50 @@
-'use strict'
+"use strict";
 var sibling = prompt('Do I have any siblings?');
-if (true) {
-  sibling = "You\'re right! I have a brother";
-  console.log "You guessed correctly!";
+if (sibling === 'yes') {
+   alert('You\'re right! I have a brother');
+  console.log('You guessed correctly!');
 }
 else {
-  sibling = "You\'re wrong! I have a brother";
-  console.log "You guessed wrong!"
+  alert('You\'re wrong! I have a brother');
+  console.log('You guessed wrong!');
 }
 
 var horses = prompt('Do I like horses?');
-if (true) {
-  horses = "You guessed wrong!";
-  console.log "You guessed wrong";
+if (horses === 'yes') {
+  alert('You guessed wrong!');
+  console.log('You guessed wrong');
 }
 else {
-  horses = "You guessed correctly!";
-  console.log "You guessed correctly!";
+  alert('You guessed correctly!');
+  console.log('You guessed correctly!');
 }
 
-var computers = prompt("Do I like computers?");
-if (true) {
-  computers = "You guessed right!";
-  console.log "You guessed right";
+var computers = prompt('Do I like computers?');
+if (computers === 'yes') {
+  alert('You guessed right!');
+  console.log('You guessed right');
 }
 else {
-  computers = "You guessed wrong";
-  console.log "You guessed wrong";
+  alert('You guessed wrong');
+  console.log('You guessed wrong');
 }
 
 var hampster = prompt('Do I have a hampster?');
-if (true) {
-  "you guessed correctly!";
-  console.log "You guessed correctly";
+if (hampster === 'yes') {
+  alert('you guessed wrong!');
+  console.log('You guessed wrong');
 }
 else {
-  hampster = "You guessed wrong";
-  console.log "You guessed wrong";
+  alert('You guessed correctly');
+  console.log('You guessed correctly');
 }
 
 var favColor = prompt('Is my favorite color blue?');
-if (true) {
-  favColor = "You guessed right!";
-  console.log "You guessed right";
+if (favColor === 'yes') {
+  alert('You guessed right!');
+  console.log('You guessed right');
 }
 else {
-  favColor = "You guessed wrong";
-  console.log "You guessed wrong";
+  alert('You guessed wrong');
+  console.log('You guessed wrong');
 }
