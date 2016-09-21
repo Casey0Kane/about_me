@@ -1,3 +1,6 @@
+* {
+  background-color: gray;
+}
 h1 {
   color: blue;
   border: solid black 10px;
@@ -9,9 +12,6 @@ div p {
   font-size: 16px;
   color: blue;
   padding: 10px;
-}
-* {
-  background-color: gray;
 }
 p {
   color: black;
