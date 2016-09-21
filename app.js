@@ -1,6 +1,6 @@
 'use strict';
 var sibling = prompt('Do I have any siblings?').toLowerCase();
-if (sibling === 'yes') {
+if (sibling === 'yes' || sibling === 'y') {
   alert('You\'re right! I have a brother');
   console.log('You guessed correctly!');
 }
@@ -10,7 +10,7 @@ else {
 }
 
 var horses = prompt('Do I like horses?').toLowerCase();
-if (horses === 'yes') {
+if (horses === 'yes' || horses === 'y') {
   alert('You guessed wrong!');
   console.log('You guessed wrong');
 }
@@ -20,7 +20,7 @@ else {
 }
 
 var computers = prompt('Do I like computers?').toLowerCase();
-if (computers === 'yes') {
+if (computers === 'yes' || computers === 'y') {
   alert('You guessed right!');
   console.log('You guessed right');
 }
@@ -30,7 +30,7 @@ else {
 }
 
 var hampster = prompt('Do I have a hampster?').toLowerCase();
-if (hampster === 'yes') {
+if (hampster === 'yes' || hampster === 'y') {
   alert('you guessed wrong!');
   console.log('You guessed wrong');
 }
@@ -40,7 +40,7 @@ else {
 }
 
 var favColor = prompt('Is my favorite color blue?').toLowerCase();
-if (favColor === 'yes') {
+if (favColor === 'yes' || favColor === 'y') {
   alert('You guessed right!');
   console.log('You guessed right');
 }
