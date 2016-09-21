@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 var sibling = prompt('Do I have any siblings?').toLowerCase();
 if (sibling === 'yes') {
   alert('You\'re right! I have a brother');

@@ -2,8 +2,9 @@ h1 {
   color: blue;
   border: solid black 10px;
   border-radius: 10px;
+  text-align: center;
 }
-p {
+div p {
   font-family: cursive;
   font-size: 16px;
   color: blue;
@@ -11,4 +12,17 @@ p {
 }
 * {
   background-color: gray;
+}
+p {
+  color: black;
+  text-align: center;
+}
+h2 {
+  border-style: dashed; 10px;
+  text-align: center;
+  margin: auto;
+  border-top-color: blue;
+  border-right-color: green;
+  border-bottom-color: purple;
+  border-left-color: black;
 }
