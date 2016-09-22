@@ -78,22 +78,21 @@ function getFunNum(){
 function funcSport(){
   var numberOfGuesses = 0;
   var guessing = true;
-  var guessSports = ['basketball, football, soccer and tennis'];
+  var guessSports = ['basketball', 'football', 'soccer', 'tennis'];
 
   while(guessing === true && numberOfGuesses < 6) {
-    console.log('while');
-    prompt('Can you guess my favorite sports?');
-    for(var x = 0; x < 4; x++){
-      if(guessSports === guessSports[x] + 'I like basketball, football, soccer and tennis');
-      guessing = false;
-      correctGuesses++;
+    numberOfGuesses++;
+    var guessSport = prompt('Can you guess my favorite sports?');
+    for(var x = 0; x < guessSports.length ; x++){
+      if(guessSport === guessSports[x]){
+        alert('You guessed correctly! I like basketball, football, soccer and tennis.');
+        score = score + 1;
+        console.log(guessSport);
+        guessing = false;
+        break;
+      // correctGuesses++;
+      }
     }
-    console.log('for loop');
-  }
-  alert('incorrect');
-  numberOfGuesses++;
-  if (numberofGuesses >= 6) {
-    alert('You didn\'t guess correctly, I like basketball, football, soccer and tennis');
   }
 }
 funcSibling();
@@ -103,4 +102,4 @@ funcHamst();
 funcColor();
 getFunNum();
 funcSport();
-alert('You have gotten' + score / 7);
+alert('You have gotten ' + score + 'out of 7 questions correct!');
