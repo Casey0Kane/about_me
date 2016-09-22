@@ -15,7 +15,7 @@ div p {
 }
 p {
   color: black;
-  text-align: center;
+  text-align: left;
 }
 h2 {
   border-style: dashed; 10px;
@@ -26,4 +26,7 @@ h2 {
   border-bottom-color: purple;
   border-left-color: black;
   border-width: medium;
+}
+ul {
+  text-align: left;
 }

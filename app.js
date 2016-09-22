@@ -43,3 +43,31 @@ if (favColor === 'yes' || favColor === 'y') {
   alert('You guessed wrong');
   console.log('You guessed wrong, my favorite color is blue');
 }
+
+for (var i = 4; i > 0; i--) {
+  parseInt(prompt('What is my favorite number? you have 4 chances.'));
+  if (i !== 4) {
+    alert('You guessed correctly!');
+    break;
+  }
+  else {
+    alert('You have guessed too high');
+  }
+}
+
+while(guessing === true && numberOfGuesses < 6) {
+  console.log('while');
+  var guessSports = prompt('Can you guess my favorite sports?');
+  for(var x = 0; x < 4; x++){
+    if(guessSports === guessSports[x] + 'I like basketball, football, soccer and tennis');
+    guessing = false;
+    correctGuesses++;
+    break;
+  }
+  console.log('for loop');
+}
+alert('incorrect');
+numberOfGuesses++;
+if (numberofGuesses >= 6) {
+  alert('You didn\'t guess correctly, I like basketball, football, soccer and tennis');
+}
