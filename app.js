@@ -1,7 +1,9 @@
 'use strict';
+var score = 0;
 var sibling = prompt('Do I have any siblings?').toLowerCase();
 if (sibling === 'yes' || sibling === 'y') {
   alert('You\'re right! I have a brother');
+  score = score + 1;
   console.log('You guessed correctly! I have a brother');
 } else {
   alert('You\'re wrong! I have a brother');
@@ -14,12 +16,14 @@ if (horses === 'yes' || horses === 'y') {
   console.log('You guessed wrong, I do not like horses');
 } else {
   alert('You guessed correctly!');
+  score = score + 1;
   console.log('You guessed correctly! I do not like horses');
 }
 
 var computers = prompt('Do I like computers?').toLowerCase();
 if (computers === 'yes' || computers === 'y') {
   alert('You guessed right!');
+  score = score + 1;
   console.log('You guessed right, I like computers');
 } else {
   alert('You guessed wrong');
@@ -32,12 +36,14 @@ if (hampster === 'yes' || hampster === 'y') {
   console.log('You guessed wrong, I do not have a hampster');
 } else {
   alert('You guessed correctly');
+  score = score + 1;
   console.log('You guessed correctly, I do not have a hampster');
 }
 
 var favColor = prompt('Is my favorite color blue?').toLowerCase();
 if (favColor === 'yes' || favColor === 'y') {
   alert('You guessed right!');
+  score = score + 1;
   console.log('You guessed right, my favorite color is blue');
 } else {
   alert('You guessed wrong');
@@ -48,6 +54,7 @@ for (var i = 4; i > 0; i--) {
   parseInt(prompt('What is my favorite number? you have 4 chances.'));
   if (i !== 4) {
     alert('You guessed correctly!');
+    score = score + 1;
     break;
   }
   else {
@@ -56,7 +63,7 @@ for (var i = 4; i > 0; i--) {
 }
 var numberOfGuesses = 0;
 var guessing = true;
-var guessSports = ('basketball, football, soccer and tennis');
+var guessSports = ['basketball, football, soccer and tennis'];
 
 while(guessing === true && numberOfGuesses < 6) {
   console.log('while');
@@ -65,7 +72,6 @@ while(guessing === true && numberOfGuesses < 6) {
     if(guessSports === guessSports[x] + 'I like basketball, football, soccer and tennis');
     guessing = false;
     correctGuesses++;
-    break;
   }
   console.log('for loop');
 }
@@ -74,3 +80,4 @@ numberOfGuesses++;
 if (numberofGuesses >= 6) {
   alert('You didn\'t guess correctly, I like basketball, football, soccer and tennis');
 }
+alert('You have gotten' + score / 7);
