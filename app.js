@@ -54,10 +54,13 @@ for (var i = 4; i > 0; i--) {
     alert('You have guessed too high');
   }
 }
+var numberOfGuesses = 0;
+var guessing = true;
+var guessSports = ('basketball, football, soccer and tennis');
 
 while(guessing === true && numberOfGuesses < 6) {
   console.log('while');
-  var guessSports = prompt('Can you guess my favorite sports?');
+  prompt('Can you guess my favorite sports?');
   for(var x = 0; x < 4; x++){
     if(guessSports === guessSports[x] + 'I like basketball, football, soccer and tennis');
     guessing = false;
